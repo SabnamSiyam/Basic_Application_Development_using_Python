@@ -37,10 +37,12 @@ print(f.readline())
 f.close()
 
 # Using For loop:
-file=open('app.log','r')
+file = open('app.log', 'r')
 
 for x in file:
     print(x)
 file.close()
 
 #  <<<---(File Reading Fucntions done)---->>>
+# By Sabnam
+# 21-05-2023

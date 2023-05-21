@@ -9,7 +9,6 @@ def Area():
     RectangleArea = lenght*width
     print('Area of Rectangle is=', RectangleArea)
 
-
 # Area()
 
 # # # প্রোগ্রাম-২:ফাংশন ব্যবহার করে দুটি সংখ্যার মধ্যে বৃহত্তম সংখ্যাটি নির্ণয়ের প্রোগ্রাম।
@@ -24,7 +23,6 @@ def largest():
         print('Largest Number is Number-1 and it is =', Number1)
     else:
         print('The largest number is number-2 & it is =', Number2)
-
 
 # largest()
 
@@ -56,7 +54,6 @@ def Multiply(numbers):
 
 
 # # # প্রোগ্রাম-৪:ফাংশন ব্যবহার করে  কোনো সংখ্যার ফ্যাক্টরিয়ার মান  নির্ণয়ের প্রোগ্রাম
-
 def factorial(n):
     if n == 0:
         return 1
@@ -65,10 +62,10 @@ def factorial(n):
 
 # n = int(input("Input a number to compute the factorial:"))
 
-
 # print(factorial(n))
 
 # # প্রোগ্রাম-৫:ফাংশন ব্যবহার করে  কোনো সংখ্যা মৌলিক কি না তা নির্ণয়ের প্রোগ্রাম।
+
 
 def test_prime(n):
     if (n == 1):
@@ -111,17 +108,13 @@ def Triangle():
     else:
         print("The triangle is not possible")
 
-
 # Triangle()
 
 
 # # প্রোগ্রাম-৮:ফাংশন ব্যবহার করে বৃওের ক্ষেত্রফল নির্ণয়ের   প্রোগ্রাম তৈরি কর।
-
-
 def calculate_area(radius):
     myarea = math.pi*radius**2
     return myarea
-
 
 # radius = calculate_area(int(input("Please input the radius:")))
 # print("The Area of circle is:", radius)
@@ -153,11 +146,8 @@ def fibo(n):
 n = 10
 # print("Fibonacci Series:")
 # for i in range(n):
-    
-    # print(fibo(i), end=" ")
 
-
-
+# print(fibo(i), end=" ")
 
 
 # <<<--Have a nice day-->>>
